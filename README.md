@@ -1,11 +1,15 @@
-# React-Expense-Tracker
- An Expense Tracker app Built with React using Hooks (useState, useContext, useReducer) and the Context API
- 
+# Expense-Tracker
+ An Expense Tracker app Built with Mern Stack using Hooks (useState, useContext, useReducer) and the Context API
+
 > Full stack expense tracker
 ## Usage
 
 ```
 change config.env file in config folder
+# Prod
+NODE_ENV=production
+# Dev
+NODE_ENV=developement
 ```
 
 ```
@@ -21,7 +25,9 @@ change config.env file in config folder
  
  # Frontend only
  npm run client
- 
+ ```
+
+```
  # Build client
  cd client
  npm run build
