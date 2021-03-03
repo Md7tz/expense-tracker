@@ -6,6 +6,8 @@
 
 ```
 change config.env file in config folder
+expense-tracker\config\config.env
+
 # Prod
 NODE_ENV=production
 # Dev
@@ -27,11 +29,12 @@ NODE_ENV=developement
  npm run client
  ```
 
+ ### Build client for production
 ```
- # Build client
  cd client
  npm run build
- 
- # Prod
+ ```
+ ### Production
+ ```
  npm start
 ```
